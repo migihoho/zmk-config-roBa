@@ -124,10 +124,10 @@
 
         MARK {
             bindings = <
-&kp EXCLAMATION  &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans  &trans  &trans  &trans  &trans
-&kp HOME         &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT   &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans           &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                          &trans
+&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH          &kp LC(DOLLAR)     &kp PERCENT                             &kp AMPERSAND  &kp SQT   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE
+&trans           &trans             &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans       &trans      &kp PAGE_UP    &trans         &kp PLUS  &kp ASTERISK          &kp AT_SIGN            &kp CARET
+&trans           &trans             &trans            &trans             &trans       &trans      &kp PAGE_DOWN  &trans         &trans    &kp SEMICOLON         &kp COLON              &trans
+&trans           &trans             &trans            &trans             &trans       &trans      &trans         &trans                                                                &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;

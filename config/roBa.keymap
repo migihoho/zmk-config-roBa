@@ -30,28 +30,43 @@
         compatible = "zmk,combos";
 
         tab {
-            bindings = <&kp TAB>;
+            bindings = <&kp GRAVE>;
             key-positions = <11 12>;
         };
 
-        shift_tab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
+        Delette {
+            bindings = <&kp DELETE>;
+            key-positions = <7 8>;
         };
 
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
+        Insert {
+            bindings = <&kp INSERT>;
+            key-positions = <6 7>;
         };
 
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
+        CenterClick {
+            bindings = <&mkp MB3>;
+            key-positions = <19 18>;
         };
 
-        eq {
-            bindings = <&kp EQUAL>;
-            key-positions = <24 25>;
+        RightClick {
+            bindings = <&mkp MB2>;
+            key-positions = <19 20>;
+        };
+
+        PrevClick {
+            bindings = <&mkp MB4>;
+            key-positions = <32 31>;
+        };
+
+        ClickNext {
+            bindings = <&mkp MB5>;
+            key-positions = <30 31>;
+        };
+
+        Escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 1>;
         };
     };
 

@@ -127,7 +127,7 @@
 &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH          &kp LC(DOLLAR)     &kp PERCENT                                     &kp AMPERSAND  &kp SQT   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE
 &trans           &trans             &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans       &trans              &kp PAGE_UP    &trans         &kp PLUS  &kp ASTERISK          &kp AT_SIGN            &kp CARET
 &kp INT_HENKAN   &kp INT_MUHENKAN   &trans            &trans             &trans       &kp LEFT_SHIFT      &kp PAGE_DOWN  &trans         &trans    &kp SEMICOLON         &kp COLON              &kp INT_YEN
-&kp LCTRL        &kp LEFT_WIN       &kp LEFT_ALT      &trans             &kp TAB      &kp SPACE           &kp BACKSPACE  &kp ENTER                                                             &mt RIGHT_SHIFT EQUAL
+&kp LCTRL        &kp LEFT_WIN       &kp LEFT_ALT      &trans             &kp TAB      &kp SPACE           &kp BACKSPACE  &kp ENTER                                                             &mt RIGHT_SHIFT UNDER
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
